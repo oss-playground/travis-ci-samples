@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - "1.12"
+  - master
+
+# Skipping the install phase entirely for now. This is for installing dependencies and all
+install: true
+
+
