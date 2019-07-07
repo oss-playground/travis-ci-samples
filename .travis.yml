@@ -1,6 +1,9 @@
 language: go
 
 # Skipping the install phase entirely for now. This is for installing dependencies and all
-#install: true
+install: true
 
-
+script:
+   - echo "Starting the build..."
+   - go build -v -o main main.go
+   - ./main
